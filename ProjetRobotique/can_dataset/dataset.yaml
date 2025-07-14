@@ -1,0 +1,14 @@
+train: C:/Users/bakho/Documents/ProjetRob/can_dataset/train
+val: C:/Users/bakho/Documents/ProjetRob/can_dataset/valid
+
+test: ../test/images
+
+nc: 2
+names: ['0', '1']
+
+roboflow:
+  workspace: projetrobot
+  project: deteccion-de-latas-lawmz
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/projetrobot/deteccion-de-latas-lawmz/dataset/1
